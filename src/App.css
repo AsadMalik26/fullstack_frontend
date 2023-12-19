@@ -1,3 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img {
+  background-image: url("https://images.pexels.com/photos/7887258/pexels-photo-7887258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 550px;
+  width: 100%;
+  /* border-radius: 0 0 90px 90px; */
+  /* width: 200%; Mask width 2x the size of the header */
+  /* height: 200%; Mask height 2x the size of the header */
+  /* transform: translate(-25%, -51%);  */
+  /* This compensates the size of the image and places the curvy part that you want on the certer of the mask, it's a translate that negativates half it's width and half it's height */
+  /* border: 6px solid yellow; */
+  border-radius:  0 0 10% 10%;
+  overflow: hidden;
+  border-top: 0;
+  background-size: cover
+}
+.bg-img-2 {
+  background-image: url("https://images.pexels.com/photos/7887258/pexels-photo-7887258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 350px;
+  width: 100%;
+  /* border-radius: 0 0 90px 90px; */
+  /* width: 200%; Mask width 2x the size of the header */
+  /* height: 200%; Mask height 2x the size of the header */
+  /* transform: translate(-25%, -51%);  */
+  /* This compensates the size of the image and places the curvy part that you want on the certer of the mask, it's a translate that negativates half it's width and half it's height */
+  /* border: 6px solid yellow; */
+  /* border-radius:  0 0 10% 10%; */
+  overflow: hidden;
+  border-top: 0;
+  background-size: cover
+}
+
+.header {
+  background: #932D3B;
+  background-color: #932D3B;
+  color: #ffffff;
+}
 .App {
   text-align: center;
 }
@@ -32,6 +72,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
